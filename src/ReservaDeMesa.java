@@ -11,6 +11,9 @@ public class ReservaDeMesa {
         System.out.print("Informe seu nome: ");
         String nomeCliente = scanner.nextLine();
 
+        System.out.print("informe seu número de telefone");
+        int numeroDeTelefone = scanner.nextInt();
+
         System.out.print("Informe a data da reserva (DD/MM/AAAA): ");
         String dataReserva = scanner.nextLine();
 
